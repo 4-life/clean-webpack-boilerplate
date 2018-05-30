@@ -1,0 +1,8 @@
+.footer {
+    position: relative;
+    min-width: var(--content-width-min);
+    max-width: var(--content-width-max);
+    margin: auto;
+    font-size: var(--body-font-size-small);
+    padding: 1rem;
+}

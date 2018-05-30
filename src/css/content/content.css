@@ -1,0 +1,7 @@
+.content {
+    position: relative;
+    min-width: var(--content-width-min);
+    max-width: var(--content-width-max);
+    margin: auto;
+    padding: 1rem;
+}

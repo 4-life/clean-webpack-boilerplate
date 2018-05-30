@@ -1,0 +1,29 @@
+:root {
+    --header-height-small: 2rem;
+    --header-font-size-small: 1.5rem;
+    --header-height-full: 2.5rem;
+    --header-font-size-full: 2rem;
+}
+
+.header {
+    position: relative;
+    min-width: var(--content-width-min);
+    max-width: var(--content-width-max);
+    margin: auto;
+    padding: 1rem;
+
+    &__title {
+        font-size: var(--header-font-size-small);
+        font-weight: normal;
+        letter-spacing: normal;
+        line-height: var(--header-height-small);
+        padding-left: calc(var(--header-height-small) + 0.5rem);
+        margin: 0;
+        transition: font-size 300ms ease, line-height 300ms ease, padding-left 300ms ease;
+        @media (--medium) {
+            font-size: var(--header-font-size-full);
+            line-height: var(--header-height-full);
+            padding-left: calc(var(--header-height-full) + 0.5rem);
+        }
+    }
+}
