@@ -1,3 +1,7 @@
+<a href="https://travis-ci.org/4-life/clean-webpack-boilerplate"><img src="https://travis-ci.org/4-life/clean-webpack-boilerplate.svg" alt="Build Status"></a>
+<a href="https://david-dm.org/4-life/clean-webpack-boilerplate"><img src="https://david-dm.org/4-life/clean-webpack-boilerplate.svg" alt="Dependency Status"></a>
+<a href="https://david-dm.org/4-life/clean-webpack-boilerplate/?type=dev"><img src="https://david-dm.org/4-life/clean-webpack-boilerplate/dev-status.svg" alt="devDependency Status"></a>
+
 # clean-webpack-boilerplate
 
 * [Node.js](https://github.com/nodejs/node)
